@@ -2,51 +2,72 @@ body{
   font-family:'Varela Round', sans-serif;
   color:#474747;
   background:url("../images/bg.png");
-  background-repeat:repeat;
 }
 
 .myname{
   width:100vw;
-  height:25%;
+  max-width:900px;
+
+  height:80px;
   padding-left:100px;
-  font-size:76;
+  padding-top:80px;
+  font-size:106px;
   font-weight:bolder;
+
 }
 
 .flexmid{
   display:flex;
-  justify-content:space-between;
   align-items:flex-end;
 
-  height:65%;
   margin-bottom:0;
-}
 
-.maintext{
-  padding-left:100px;
-  padding-right:100px;
+  max-height:400px;
 
-  font-size:24;
-  font-weight:lighter;
-  max-width:
-}
-
-.heroimage{
+  position:fixed;
+  bottom:10%;
 
 }
 
-  .me{
+    .maintext{
+      padding-bottom:230px;
+      padding-top:80px;
+      padding-left:100px;
+
+      min-width:600px;
+      max-width:700px;
+
+      font-size:48px;
+      font-weight:100px;
+
+      flex-basis:40vw;
+      flex-wrap:wrap;
+
+      vertical-align:text-top;
+
+      flex:1;
+    }
+
+
+    .heroimage{
       width:auto;
       height:auto;
 
-      max-width:445px;
+      max-width:100%;
 
       padding-right:50px;
-  }
+      padding-left:100px;
+
+      flex:1;
+    }
+
+      .me{
+        max-height:700px;
+      }
 
 .footer{
   width:100vw;
-  height:10%;
+  height:12%;
 
   position: fixed;
   left: 0;
@@ -63,32 +84,31 @@ body{
   align-items:center;
 
   list-style-type:none;
+
+  font-size:30px;
+
 }
 
 .about{
-  font-size:30;
   color:#F2B200;
 
   padding-left:25px;
 }
 
 .skills{
-  font-size:30;
   color:#18B8DB;
 
   padding-left:50px;
 }
 
 .work{
-  font-size:30;
   color:#D93D54;
 
   padding-left:50px;
 }
 
 .contact{
-  font-size:30;
   color:white;
 
-  padding-left:50px;r
+  padding-left:50px;
 }
